@@ -57,7 +57,7 @@ async def help(client, m: Message):
 
 ⧉ | لأعاده تشغيل التنصيب أرسل ⇦  [ `{HNDLR}ريستارت` ]
 ———————×———————
-♥ | @TFG_FQ
+♥ | @FG_FQ
 ⭐ | @Ti_iT01"""
     await m.reply(HELP)
 @Client.on_message(filters.command(["الريبو"], prefixes=f"{HNDLR}"))
@@ -66,7 +66,7 @@ async def repo(client, m: Message):
     REPO = f"""
 <b>👋  اهلا {m.from_user.mention}!
 
-♥ قناة تلي | @FG_FQ
-⭐ المطور | @Ti_iT01
+♥ قناة تلي |  @FG_FQ
+⭐ المطور |  @Ti_iT01
 """
     await m.reply(REPO, disable_web_page_preview=True)
